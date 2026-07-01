@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6c0148/v1
+canonical_location: https://kanripo.org/bkk/KR6c0148/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 般若心經疏
+  identifiers:
+    alt_id:
+    - X26n0529
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X26/X26n0529.xml
+    old_id: X26n0529
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0148_000.yaml, hash: 'sha256:79f23dce1529fe6fb6efc213f046904b8ff776eee4019c806377d187ba98e6d2'}
+  - {seq: 1, filename: KR6c0148_001.yaml, hash: 'sha256:6babaecda5e4a47bb79745539e036963b85d4bce53e81526a7f37aab22dd1433'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0148_001.markers.yaml, hash: 'sha256:75dcac6cfc18f7bd20f4abfa10079ebfc7d9a9be6dca1b980d79835cd837ed06'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0148_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 4434
+  label: 般若心經疏并序
+  type: juan
+  level: 1
+hash: sha256:3719fbe72160698fb9db5814fa311004bfab7161ddd32525bd6445d549248f76
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
