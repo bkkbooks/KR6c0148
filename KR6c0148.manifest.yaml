@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0148_000.yaml, hash: 'sha256:79f23dce1529fe6fb6efc213f046904b8ff776eee4019c806377d187ba98e6d2'}
-  - {seq: 1, filename: KR6c0148_001.yaml, hash: 'sha256:6babaecda5e4a47bb79745539e036963b85d4bce53e81526a7f37aab22dd1433'}
+  - {seq: 1, filename: KR6c0148_001.yaml, hash: 'sha256:3b3466c8711c2c160b9538777096fcf0eae8942ef01c90ae92b9b0a57ad2bc6e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6c0148_001.markers.yaml, hash: 'sha256:75dcac6cfc18f7bd20f4abfa10079ebfc7d9a9be6dca1b980d79835cd837ed06'}
+  - {seq: 0, role: markers, filename: assets/KR6c0148_000.markers.yaml, hash: 'sha256:9c0fbaecf3effe06b817dff2a44892eafd6632c6ddf6b11eeb864295958acca4'}
+  - {seq: 1, role: markers, filename: assets/KR6c0148_001.markers.yaml, hash: 'sha256:0421bf7ac53b64b9f3ae21cb2a6ead033ea1b27425144de835f4696355b6b9e8'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 般若心經疏并序
   type: juan
   level: 1
-hash: sha256:3719fbe72160698fb9db5814fa311004bfab7161ddd32525bd6445d549248f76
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:e6f927dbeea11461461764b95449f4ec316d4d640fdf57d0a6ea2019675e2e70
